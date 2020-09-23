@@ -25,6 +25,7 @@ let myChart = new Chart(ctx, {
             borderWidth: 1
         }]
     },
+
     options: {
         scales: {
             yAxes: [{
@@ -33,5 +34,7 @@ let myChart = new Chart(ctx, {
                 }
             }]
         }
+
+
     }
 });
