@@ -34,10 +34,6 @@ let myChart = new Chart(ctx, {
                 }
             }]
         }
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 0076dfc3149cc6e32426d88466f0c22c928fb58a
     }
 });
