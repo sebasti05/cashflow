@@ -1,11 +1,8 @@
-var ctx = document.getElementById('myChart').getContext('2d');
-var chart = new Chart(ctx, {
-    // The type of chart we want to create
+let ctx = document.getElementById('myChart').getContext('2d');
+let myChart = new Chart(ctx, {
     type: 'bar',
-
-    // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
             label: '# of Votes',
             data: [12, 19, 3, 5, 2, 3],
@@ -29,7 +26,6 @@ var chart = new Chart(ctx, {
         }]
     },
 
-    // Configuration options go here
     options: {
         scales: {
             yAxes: [{
@@ -38,5 +34,10 @@ var chart = new Chart(ctx, {
                 }
             }]
         }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0076dfc3149cc6e32426d88466f0c22c928fb58a
     }
 });
